@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/CS440/Parking Tags/Dataset/train/images
+val: /content/drive/MyDrive/CS440/Parking Tags/Dataset/valid/images
+test: /content/drive/MyDrive/CS440/Parking Tags/Dataset/test/images
+
+nc: 1
+names: ['Tag']
+
+roboflow:
+  workspace: cracks-mold
+  project: parking-tag-collection-8od1l
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cracks-mold/parking-tag-collection-8od1l/dataset/2
